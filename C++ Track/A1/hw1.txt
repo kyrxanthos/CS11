@@ -1,0 +1,21 @@
+CS11 Intro C++ Lab 1 - Questions
+================================
+
+Q1:  Are you using GNU g++ or LLVM clang++?  Show how you know this by
+     running a command on your system and including the output in this file.
+
+clang++ --version
+
+Apple clang version 11.0.0 (clang-1100.0.33.17)
+Target: x86_64-apple-darwin19.2.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+
+
+Q2:  What command do you use to build your submission?
+
+clang++ -std=c++11 -Wall convert.cpp units.cpp -o units -o convert
+
+./convert
+
